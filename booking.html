@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Now | Ultimate DJ Xenia: Spin City</title>
+    <meta
+      name="description"
+      content="Book Ultimate DJ Xenia: Spin City for weddings, parties, corporate events, concerts, after parties, and club gigs."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-eyebrow">Ultimate DJ</span>
+        <span class="brand-name">Xenia: Spin City</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="media.html">Media</a>
+        <a class="is-active" href="booking.html">Book</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-content">
+          <p class="eyebrow">Contact &amp; Booking</p>
+          <h1>Secure premium sound for your next event</h1>
+          <p class="hero-copy">
+            Share your event details and open a ready-to-send WhatsApp message
+            for fast booking, availability, and planning.
+          </p>
+        </div>
+      </section>
+
+      <section class="section booking">
+        <div class="container booking-grid">
+          <div class="booking-copy">
+            <p class="eyebrow">Book Spin City</p>
+            <h2>Reliable setup, premium sound, and the right energy</h2>
+            <p>
+              Ideal for weddings, birthday parties, corporate events, concerts,
+              after parties, club gigs, commemorations, dinner parties, and get
+              togethers.
+            </p>
+            <div class="contact-cards">
+              <a class="contact-card" href="https://wa.me/2349064163781" target="_blank" rel="noreferrer">
+                <span class="contact-label">WhatsApp</span>
+                <strong>09064163781</strong>
+              </a>
+              <a class="contact-card" href="https://www.instagram.com/_djxenia/" target="_blank" rel="noreferrer">
+                <span class="contact-label">Instagram</span>
+                <strong>@_djxenia</strong>
+              </a>
+            </div>
+          </div>
+
+          <form class="booking-form" id="bookingForm">
+            <label>
+              <span>Event Type</span>
+              <select name="eventType" required>
+                <option value="">Select an event</option>
+                <option>Wedding Party</option>
+                <option>Birthday Party</option>
+                <option>Get Together</option>
+                <option>Corporate Event</option>
+                <option>Commemoration</option>
+                <option>Dinner Party</option>
+                <option>Concert</option>
+                <option>After Party</option>
+                <option>Club Gig</option>
+              </select>
+            </label>
+
+            <label>
+              <span>Date</span>
+              <input type="date" name="eventDate" required />
+            </label>
+
+            <label>
+              <span>Location</span>
+              <input
+                type="text"
+                name="location"
+                placeholder="City or venue"
+                required
+              />
+            </label>
+
+            <label>
+              <span>Expected Guest Count</span>
+              <input
+                type="number"
+                name="guestCount"
+                min="1"
+                placeholder="e.g. 200"
+                required
+              />
+            </label>
+
+            <label>
+              <span>Extra Details</span>
+              <textarea
+                name="details"
+                rows="4"
+                placeholder="Tell us about the atmosphere, schedule, or special requests"
+              ></textarea>
+            </label>
+
+            <button class="button button-primary button-full" type="submit">
+              Send Booking Request
+            </button>
+            <p class="form-note" id="formNote">
+              Your request prepares a ready-to-send WhatsApp message for faster booking.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <p class="footer-brand">Ultimate DJ Xenia: Spin City</p>
+          <p class="footer-tagline">Premium Sound Every Time.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.instagram.com/_djxenia/" target="_blank" rel="noreferrer">
+            Instagram
+          </a>
+          <a href="https://wa.me/2349064163781" target="_blank" rel="noreferrer">
+            WhatsApp: 09064163781
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
