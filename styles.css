@@ -721,6 +721,18 @@ textarea {
   font-weight: 700;
 }
 
+.footer-nav {
+  display: flex;
+  gap: 0.9rem 1.1rem;
+  flex-wrap: wrap;
+  margin-top: 0.9rem;
+  color: var(--muted);
+}
+
+.footer-nav a:hover {
+  color: var(--gold);
+}
+
 .footer-tagline {
   color: var(--gold);
   margin-top: 0.35rem;
@@ -818,5 +830,9 @@ textarea {
   .footer-links {
     flex-direction: column;
     gap: 0.6rem;
+  }
+
+  .footer-nav {
+    justify-content: center;
   }
 }
